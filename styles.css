@@ -1,0 +1,121 @@
+.oswald-title {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #9C0000;
+}
+
+.roboto-body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  color: #523C3C;
+}
+
+body {
+    background-color: #fedfdf;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23ff9d9d' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+    margin: 0px auto;
+    width: 100%;
+}
+
+header nav {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.navbar {
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+}
+
+.navbar h1 {
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar a {
+    color: #f16868;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    color: #9C0000;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+#self-portrait {
+    float: left;
+    padding-right: 15px;
+    border-radius: 50%;
+}
+
+.about-me p {
+    line-height: 1.5;
+}
+
+.socials {
+    background-color: white;
+    width: 20%;
+    height: 130px;
+    padding: 15px 15px;
+    margin: 30px 30px;
+    border-radius: 8px;
+}
+
+.socials a {
+    padding: 3px 3px;
+}
+
+.socials-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    content: "";
+    clear: both;
+    display: block;
+    margin: auto;
+    max-width: 900px;
+}
+
+footer {
+    background-color: #ff8888;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: auto;
+    margin: auto;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
